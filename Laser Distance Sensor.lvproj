@@ -1261,7 +1261,7 @@
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="FPGA Init.vi" Type="VI" URL="../../Prove/FPGA Init.vi"/>
+		<Item Name="FPGA Init.vi" Type="VI" URL="../FPGA Init.vi"/>
 		<Item Name="Init Wave Values.txt" Type="Document" URL="../Init Wave Values.txt"/>
 		<Item Name="RT.vi" Type="VI" URL="../RT.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
