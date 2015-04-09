@@ -16,6 +16,7 @@
 			<Item Name="Initialize &amp; Run FPGA.vi" Type="VI" URL="../Initialize &amp; Run FPGA.vi"/>
 			<Item Name="Memory Init.vi" Type="VI" URL="../Memory Init.vi"/>
 		</Item>
+		<Item Name="Logo.jpg" Type="Document" URL="../Logo.jpg"/>
 		<Item Name="UI.vi" Type="VI" URL="../UI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
