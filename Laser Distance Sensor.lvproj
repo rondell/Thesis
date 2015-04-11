@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="14008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -19,7 +20,9 @@
 		<Item Name="Test VIs" Type="Folder">
 			<Item Name="Acquisition test UI.vi" Type="VI" URL="../Acquisition test UI.vi"/>
 		</Item>
-		<Item Name="Logo.jpg" Type="Document" URL="../Logo.jpg"/>
+		<Item Name="Img" Type="Folder">
+			<Item Name="Logo.jpg" Type="Document" URL="../Logo.jpg"/>
+		</Item>
 		<Item Name="UI.vi" Type="VI" URL="../UI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -1272,7 +1275,7 @@
 						<Property Name="Type Descriptor" Type="Str">1000800000000001003C005F0351000C000000050001000100000005FFFFFFFFFFFFFFFF0000000B0000000400000000000007FF00000001FFFFFFFA000000000000000100010000000000000000000000000000</Property>
 					</Item>
 				</Item>
-				<Item Name="Target-scope Memory" Type="Folder">
+				<Item Name="Target-Scope Memory" Type="Folder">
 					<Item Name="Triangular Wave Values" Type="FPGA Memory Block">
 						<Property Name="FPGA.PersistentID" Type="Str">{D0D02B87-39AD-45C0-B574-78805CF8B305}</Property>
 						<Property Name="fullEmulation" Type="Bool">true</Property>
