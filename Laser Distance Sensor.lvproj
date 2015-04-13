@@ -11,7 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Img" Type="Folder">
+		<Item Name="Logo" Type="Folder">
 			<Item Name="Logo.jpg" Type="Document" URL="../Logo.jpg"/>
 		</Item>
 		<Item Name="Text file" Type="Folder">
