@@ -11,19 +11,22 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Support VIs" Type="Folder">
-			<Item Name="Init FPGA Wave Generator.vi" Type="VI" URL="../Init FPGA Wave Generator.vi"/>
+		<Item Name="Img" Type="Folder">
+			<Item Name="Logo.jpg" Type="Document" URL="../Logo.jpg"/>
+		</Item>
+		<Item Name="Text file" Type="Folder">
 			<Item Name="Init Wave Values.txt" Type="Document" URL="../Init Wave Values.txt"/>
-			<Item Name="Initialize &amp; Run FPGA.vi" Type="VI" URL="../Initialize &amp; Run FPGA.vi"/>
-			<Item Name="Memory Init.vi" Type="VI" URL="../Memory Init.vi"/>
-			<Item Name="Convert Complex Data To Waveform.vi" Type="VI" URL="../Convert Complex Data To Waveform.vi"/>
 		</Item>
 		<Item Name="Test VIs" Type="Folder">
 			<Item Name="Acquisition test UI.vi" Type="VI" URL="../Acquisition test UI.vi"/>
 			<Item Name="FFT Test UI.vi" Type="VI" URL="../FFT Test UI.vi"/>
 		</Item>
-		<Item Name="Img" Type="Folder">
-			<Item Name="Logo.jpg" Type="Document" URL="../Logo.jpg"/>
+		<Item Name="Support VIs" Type="Folder">
+			<Item Name="Init FPGA Wave Generator.vi" Type="VI" URL="../Init FPGA Wave Generator.vi"/>
+			<Item Name="Initialize &amp; Run FPGA.vi" Type="VI" URL="../Initialize &amp; Run FPGA.vi"/>
+			<Item Name="Memory Init.vi" Type="VI" URL="../Memory Init.vi"/>
+			<Item Name="Convert Complex Data To Waveform.vi" Type="VI" URL="../Convert Complex Data To Waveform.vi"/>
+			<Item Name="Close FPGA.vi" Type="VI" URL="../Close FPGA.vi"/>
 		</Item>
 		<Item Name="UI.vi" Type="VI" URL="../UI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
