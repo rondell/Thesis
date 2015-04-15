@@ -1,1 +1,3 @@
-1234 - Overflow in Data Acquisition Queue
+0 - Overflow in Data Acquisition Queue
+1 - Memory of FPGA too slow
+2- Overflow in Memory Queue
