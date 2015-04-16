@@ -16,6 +16,7 @@
 		</Item>
 		<Item Name="Text file" Type="Folder">
 			<Item Name="Init Wave Values.txt" Type="Document" URL="../Init Wave Values.txt"/>
+			<Item Name="Interrupt List.txt" Type="Document" URL="../Interrupt List.txt"/>
 		</Item>
 		<Item Name="Test VIs" Type="Folder">
 			<Item Name="Acquisition test UI.vi" Type="VI" URL="../Acquisition test UI.vi"/>
