@@ -26,6 +26,7 @@
 			<Item Name="FFT Test UI.vi" Type="VI" URL="../FFT Test UI.vi"/>
 			<Item Name="Generation Test UI.vi" Type="VI" URL="../Generation Test UI.vi"/>
 			<Item Name="Acquisition &amp; Generation test UI.vi" Type="VI" URL="../Acquisition &amp; Generation test UI.vi"/>
+			<Item Name="Single Acquisition UI.vi" Type="VI" URL="../Single Acquisition UI.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Item Name="Init FPGA Wave Generator.vi" Type="VI" URL="../Init FPGA Wave Generator.vi"/>
