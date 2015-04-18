@@ -17,6 +17,9 @@
 		<Item Name="Text file" Type="Folder">
 			<Item Name="Init Wave Values.txt" Type="Document" URL="../Init Wave Values.txt"/>
 			<Item Name="Interrupt List.txt" Type="Document" URL="../Interrupt List.txt"/>
+			<Item Name="Init Wave Values 6Khz.txt" Type="Document" URL="../Init Wave Values 6Khz.txt"/>
+			<Item Name="Init Wave Values 24KHz.txt" Type="Document" URL="../Init Wave Values 24KHz.txt"/>
+			<Item Name="Init Wave Values 48KHz.txt" Type="Document" URL="../Init Wave Values 48KHz.txt"/>
 		</Item>
 		<Item Name="Test VIs" Type="Folder">
 			<Item Name="Acquisition test UI.vi" Type="VI" URL="../Acquisition test UI.vi"/>
@@ -31,6 +34,7 @@
 			<Item Name="Convert Complex Data To Waveform.vi" Type="VI" URL="../Convert Complex Data To Waveform.vi"/>
 			<Item Name="Close FPGA.vi" Type="VI" URL="../Close FPGA.vi"/>
 			<Item Name="IRQ Handler.vi" Type="VI" URL="../IRQ Handler.vi"/>
+			<Item Name="generate file.vi" Type="VI" URL="../generate file.vi"/>
 		</Item>
 		<Item Name="UI.vi" Type="VI" URL="../UI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -80,6 +84,11 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="NI_FpgaMspHost.lvlib" Type="Library" URL="/&lt;vilib&gt;/rvi/Analysis/host/Public/NI_FpgaMspHost.lvlib"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
+				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
+				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
+				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
