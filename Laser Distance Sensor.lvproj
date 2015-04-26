@@ -184,7 +184,7 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
 				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Documents and Settings/Leo/Desktop/Repo/Thesis/FPGA Target/Test VIs/RMS Simulation Test.vi</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
-				<Property Name="SWEmulationSubMode" Type="UInt">1</Property>
+				<Property Name="SWEmulationSubMode" Type="UInt">0</Property>
 				<Property Name="SWEmulationVIPath" Type="Path">/D/Thesis project/Thesis/Host/Test VIs/Acquisition &amp; Generation test UI.vi</Property>
 				<Property Name="Target Class" Type="Str">sbRIO-9636</Property>
 				<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
@@ -1421,7 +1421,6 @@ AddOutputFilter chunkFilter
 						<Item Name="LVFixedPointQuantizationPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointQuantizationPolicyTypeDef.ctl"/>
 						<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
 						<Item Name="LVFixedPointOverflowPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointOverflowPolicyTypeDef.ctl"/>
-						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					</Item>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
