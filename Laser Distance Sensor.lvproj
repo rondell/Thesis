@@ -1526,7 +1526,6 @@ AddOutputFilter chunkFilter
 						<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
 						<Item Name="LVFixedPointOverflowPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointOverflowPolicyTypeDef.ctl"/>
 					</Item>
-					<Item Name="Single FFT.vi" Type="VI" URL="../FPGA Target/Support VIs/Single FFT.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="Single Acquisition" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
