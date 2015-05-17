@@ -171,6 +171,7 @@ AddOutputFilter chunkFilter
 		<Item Name="RT Host" Type="Folder" URL="../RT Host">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Frequency from bin number.vi" Type="VI" URL="../Host/Support VIs/Frequency from bin number.vi"/>
 		<Item Name="Chassis" Type="sbRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -2311,7 +2312,6 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="Frequency from bin number.vi" Type="VI" URL="../Host/Support VIs/Frequency from bin number.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
