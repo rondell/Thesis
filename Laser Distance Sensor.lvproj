@@ -186,7 +186,6 @@ AddOutputFilter chunkFilter
 </CLIPDeclarationSet></Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">sbRIO-9636/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSSBRIO_9636FPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
-				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Documents and Settings/Leo/Desktop/Repo/Thesis/FPGA Target/Test VIs/Double FFT Mesurament (Max Bin detection) test.vi</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
 				<Property Name="SWEmulationSubMode" Type="UInt">0</Property>
 				<Property Name="SWEmulationVIPath" Type="Path">/D/Thesis project/Thesis/Host/Support VIs/Initialization VI for Wave Generator Memory.vi</Property>
