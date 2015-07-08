@@ -2131,7 +2131,7 @@ AddOutputFilter chunkFilter
 						<Property Name="SupportDownload" Type="Bool">true</Property>
 						<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
 						<Property Name="TargetName" Type="Str">FPGA Target</Property>
-						<Property Name="TopLevelVI" Type="Ref">/RT Single-Board RIO Target/Chassis/FPGA Target/Test VIs/Double FFT Mesurament (Max Bin detection - Control - Init Wave&amp;Window - Snapshot - DoubleFFT - Latency) test.vi</Property>
+						<Property Name="TopLevelVI" Type="Ref"></Property>
 					</Item>
 					<Item Name="Double FFT Mesurament (Max Bin detection - Control - Init Wave&amp;Window - Snapshot - DoubleFFT - Latency - FIX FFT DELAY) test" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
