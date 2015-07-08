@@ -2030,6 +2030,8 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Documents and Settings/Leo/Desktop/Repo/Thesis/FPGA Bitfiles/LaserDistanceSen_FPGATarget_Acqusition&amp;Gener_1ZBrSO-wLIo.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/LaserDistanceSen_FPGATarget_Acqusition&amp;Gener_1ZBrSO-wLIo.lvbitx</Property>
 						<Property Name="ProjectPath" Type="Path">/C/Documents and Settings/Leo/Desktop/Repo/Thesis/Laser Distance Sensor.lvproj</Property>
 						<Property Name="RelativePath" Type="Bool">true</Property>
 						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
@@ -2066,6 +2068,8 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Documents and Settings/Leo/Desktop/Repo/Thesis/FPGA Bitfiles/LaserDistanceSen_FPGATarget_DoubleFFTMesuram_3rzWOSKuVyU.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/LaserDistanceSen_FPGATarget_DoubleFFTMesuram_3rzWOSKuVyU.lvbitx</Property>
 						<Property Name="ProjectPath" Type="Path">/C/Documents and Settings/Leo/Desktop/Repo/Thesis/Laser Distance Sensor.lvproj</Property>
 						<Property Name="RelativePath" Type="Bool">true</Property>
 						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
@@ -2102,6 +2106,8 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Documents and Settings/Leo/Desktop/Repo/Thesis/FPGA Bitfiles/LaserDistanceSen_FPGATarget_DoubleFFTMesuram_TCh4DSruzm8.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/LaserDistanceSen_FPGATarget_DoubleFFTMesuram_TCh4DSruzm8.lvbitx</Property>
 						<Property Name="ProjectPath" Type="Path">/C/Documents and Settings/Leo/Desktop/Repo/Thesis/Laser Distance Sensor.lvproj</Property>
 						<Property Name="RelativePath" Type="Bool">true</Property>
 						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
@@ -2138,6 +2144,8 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Documents and Settings/Leo/Desktop/Repo/Thesis/FPGA Bitfiles/LaserDistanceSen_FPGATarget_DoubleFFTMesuram_y+9DFWHgHA4.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/LaserDistanceSen_FPGATarget_DoubleFFTMesuram_y+9DFWHgHA4.lvbitx</Property>
 						<Property Name="ProjectPath" Type="Path">/C/Documents and Settings/Leo/Desktop/Repo/Thesis/Laser Distance Sensor.lvproj</Property>
 						<Property Name="RelativePath" Type="Bool">true</Property>
 						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
@@ -2174,6 +2182,8 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Documents and Settings/Leo/Desktop/Repo/Thesis/FPGA Bitfiles/LaserDistanceSen_FPGATarget_DoubleFFTMesuram_ltZoZsQg6NE.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/LaserDistanceSen_FPGATarget_DoubleFFTMesuram_ltZoZsQg6NE.lvbitx</Property>
 						<Property Name="ProjectPath" Type="Path">/C/Documents and Settings/Leo/Desktop/Repo/Thesis/Laser Distance Sensor.lvproj</Property>
 						<Property Name="RelativePath" Type="Bool">true</Property>
 						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
