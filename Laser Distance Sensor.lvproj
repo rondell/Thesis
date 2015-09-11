@@ -1762,6 +1762,44 @@ AddOutputFilter chunkFilter
 						<Property Name="TargetName" Type="Str">FPGA Target</Property>
 						<Property Name="TopLevelVI" Type="Ref">/RT Single-Board RIO Target/Chassis/FPGA Target/Support VIs/Estrazione Fondo - Target.vi</Property>
 					</Item>
+					<Item Name="N-Double FFT Mesurament (N-Parametric ALTERNATIVE) Test" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
+						<Property Name="BuildSpecDecription" Type="Str"></Property>
+						<Property Name="BuildSpecName" Type="Str">N-Double FFT Mesurament (N-Parametric ALTERNATIVE) Test</Property>
+						<Property Name="Comp.BitfileName" Type="Str">LaserDistanceSen_FPGATarget_N-DoubleFFTMesur_iXckxMnFQJ0.lvbitx</Property>
+						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
+						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
+						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
+						<Property Name="Comp.Version.Build" Type="Int">0</Property>
+						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
+						<Property Name="Comp.Version.Major" Type="Int">1</Property>
+						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
+						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
+						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
+						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
+						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
+						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
+						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
+						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
+						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
+						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Documents and Settings/Leo/Desktop/Repo/Thesis/FPGA Bitfiles/LaserDistanceSen_FPGATarget_N-DoubleFFTMesur_iXckxMnFQJ0.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/LaserDistanceSen_FPGATarget_N-DoubleFFTMesur_iXckxMnFQJ0.lvbitx</Property>
+						<Property Name="ProjectPath" Type="Path">/C/Documents and Settings/Leo/Desktop/Repo/Thesis/Laser Distance Sensor.lvproj</Property>
+						<Property Name="RelativePath" Type="Bool">true</Property>
+						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
+						<Property Name="SupportDownload" Type="Bool">true</Property>
+						<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
+						<Property Name="TargetName" Type="Str">FPGA Target</Property>
+						<Property Name="TopLevelVI" Type="Ref">/RT Single-Board RIO Target/Chassis/FPGA Target/Test VIs/N-Double FFT Mesurament (N-Parametric ALTERNATIVE) Test.vi</Property>
+					</Item>
 				</Item>
 			</Item>
 		</Item>
@@ -1770,46 +1808,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
-				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
-				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
-				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
-				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
-				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
-				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
-				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
-				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
-				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="NI_AAL_SigProc.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_SigProc.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
