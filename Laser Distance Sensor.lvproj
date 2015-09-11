@@ -1798,7 +1798,7 @@ AddOutputFilter chunkFilter
 						<Property Name="SupportDownload" Type="Bool">true</Property>
 						<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
 						<Property Name="TargetName" Type="Str">FPGA Target</Property>
-						<Property Name="TopLevelVI" Type="Ref">/RT Single-Board RIO Target/Chassis/FPGA Target/Test VIs/N-Double FFT Mesurament (N-Parametric ALTERNATIVE) Test.vi</Property>
+						<Property Name="TopLevelVI" Type="Ref"></Property>
 					</Item>
 				</Item>
 			</Item>
