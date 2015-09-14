@@ -1762,11 +1762,11 @@ AddOutputFilter chunkFilter
 						<Property Name="TargetName" Type="Str">FPGA Target</Property>
 						<Property Name="TopLevelVI" Type="Ref">/RT Single-Board RIO Target/Chassis/FPGA Target/Support VIs/Estrazione Fondo - Target.vi</Property>
 					</Item>
-					<Item Name="N-Double FFT Mesurament (N-Parametric ALTERNATIVE) Test" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+					<Item Name="N-Parametric Double FFT Mesurament Test" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
-						<Property Name="BuildSpecName" Type="Str">N-Double FFT Mesurament (N-Parametric ALTERNATIVE) Test</Property>
-						<Property Name="Comp.BitfileName" Type="Str">LaserDistanceSen_FPGATarget_N-DoubleFFTMesur_iXckxMnFQJ0.lvbitx</Property>
+						<Property Name="BuildSpecName" Type="Str">N-Parametric Double FFT Mesurament Test</Property>
+						<Property Name="Comp.BitfileName" Type="Str">LaserDistanceSen_FPGATarget_N-ParametricDoub_YVLbjAYtdP4.lvbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -1790,15 +1790,15 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Documents and Settings/Leo/Desktop/Repo/Thesis/FPGA Bitfiles/LaserDistanceSen_FPGATarget_N-DoubleFFTMesur_iXckxMnFQJ0.lvbitx</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/LaserDistanceSen_FPGATarget_N-DoubleFFTMesur_iXckxMnFQJ0.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Documents and Settings/Leo/Desktop/Repo/Thesis/FPGA Bitfiles/LaserDistanceSen_FPGATarget_N-ParametricDoub_YVLbjAYtdP4.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/LaserDistanceSen_FPGATarget_N-ParametricDoub_YVLbjAYtdP4.lvbitx</Property>
 						<Property Name="ProjectPath" Type="Path">/C/Documents and Settings/Leo/Desktop/Repo/Thesis/Laser Distance Sensor.lvproj</Property>
 						<Property Name="RelativePath" Type="Bool">true</Property>
 						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
 						<Property Name="SupportDownload" Type="Bool">true</Property>
 						<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
 						<Property Name="TargetName" Type="Str">FPGA Target</Property>
-						<Property Name="TopLevelVI" Type="Ref"></Property>
+						<Property Name="TopLevelVI" Type="Ref">/RT Single-Board RIO Target/Chassis/FPGA Target/Test VIs/N-Parametric Double FFT Mesurament Test.vi</Property>
 					</Item>
 				</Item>
 			</Item>
