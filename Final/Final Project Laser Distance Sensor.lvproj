@@ -95,9 +95,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Support VIs" Type="Folder" URL="../RT/Support VIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Test VIs" Type="Folder" URL="../RT/Test VIs">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="Continuous Measurament RT.vi" Type="VI" URL="../RT/Continuous Measurament RT.vi"/>
 		<Item Name="Chassis" Type="sbRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
@@ -1463,9 +1460,6 @@ AddOutputFilter chunkFilter
 					</Item>
 				</Item>
 				<Item Name="Support VIs" Type="Folder" URL="../FPGA/Support VIs">
-					<Property Name="NI.DISK" Type="Bool">true</Property>
-				</Item>
-				<Item Name="Test VIs" Type="Folder" URL="../FPGA/Test VIs">
 					<Property Name="NI.DISK" Type="Bool">true</Property>
 				</Item>
 				<Item Name="Continuous Measurement FPGA.vi" Type="VI" URL="../FPGA/Continuous Measurement FPGA.vi">
